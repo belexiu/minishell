@@ -6,33 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/built_in.c
+/Users/petru/Desktop/minishell/built_in.c
 minishell.h
-/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/minishell.h
+/Users/petru/Desktop/minishell/minishell.h
 
-/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/ft_gnl.c
+/Users/petru/Desktop/minishell/ft_gnl.c
 stdlib.h
 -
 unistd.h
 -
 ft_gnl.h
-/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/ft_gnl.h
+/Users/petru/Desktop/minishell/ft_gnl.h
 
-/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/ft_gnl.h
+/Users/petru/Desktop/minishell/ft_gnl.h
 
-/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/ft_gnl_help.c
+/Users/petru/Desktop/minishell/ft_gnl_help.c
 ft_gnl.h
-/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/ft_gnl.h
+/Users/petru/Desktop/minishell/ft_gnl.h
 stdlib.h
 -
 
-/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/ft_strsplit.c
+/Users/petru/Desktop/minishell/ft_strsplit.c
 stdlib.h
 -
 
-/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/ft_strsplit.h
+/Users/petru/Desktop/minishell/ft_strsplit.h
 
-/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/main.c
+/Users/petru/Desktop/minishell/main.c
 stdio.h
 -
 string.h
@@ -44,11 +44,11 @@ stdlib.h
 sys/stat.h
 -
 ft_strsplit.h
-/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/ft_strsplit.h
+/Users/petru/Desktop/minishell/ft_strsplit.h
 ft_gnl.h
-/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/ft_gnl.h
+/Users/petru/Desktop/minishell/ft_gnl.h
 minishell.h
-/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/minishell.h
+/Users/petru/Desktop/minishell/minishell.h
 
-/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/minishell.h
+/Users/petru/Desktop/minishell/minishell.h
 

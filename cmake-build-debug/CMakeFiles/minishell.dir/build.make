@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Volumes/CLion/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /Volumes/CLion/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell
+CMAKE_SOURCE_DIR = /Users/petru/Desktop/minishell
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/petru/Desktop/minishell/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/minishell.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/minishell.dir/flags.make
 
 CMakeFiles/minishell.dir/main.c.o: CMakeFiles/minishell.dir/flags.make
 CMakeFiles/minishell.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/minishell.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/main.c.o   -c /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/petru/Desktop/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/minishell.dir/main.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/main.c.o   -c /Users/petru/Desktop/minishell/main.c
 
 CMakeFiles/minishell.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/main.c > CMakeFiles/minishell.dir/main.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/petru/Desktop/minishell/main.c > CMakeFiles/minishell.dir/main.c.i
 
 CMakeFiles/minishell.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/main.c -o CMakeFiles/minishell.dir/main.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/petru/Desktop/minishell/main.c -o CMakeFiles/minishell.dir/main.c.s
 
 CMakeFiles/minishell.dir/main.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/minishell.dir/main.c.o.provides.build: CMakeFiles/minishell.dir/main.
 
 CMakeFiles/minishell.dir/ft_strsplit.c.o: CMakeFiles/minishell.dir/flags.make
 CMakeFiles/minishell.dir/ft_strsplit.c.o: ../ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/minishell.dir/ft_strsplit.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/ft_strsplit.c.o   -c /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/ft_strsplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/petru/Desktop/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/minishell.dir/ft_strsplit.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/ft_strsplit.c.o   -c /Users/petru/Desktop/minishell/ft_strsplit.c
 
 CMakeFiles/minishell.dir/ft_strsplit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/ft_strsplit.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/ft_strsplit.c > CMakeFiles/minishell.dir/ft_strsplit.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/petru/Desktop/minishell/ft_strsplit.c > CMakeFiles/minishell.dir/ft_strsplit.c.i
 
 CMakeFiles/minishell.dir/ft_strsplit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/ft_strsplit.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/ft_strsplit.c -o CMakeFiles/minishell.dir/ft_strsplit.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/petru/Desktop/minishell/ft_strsplit.c -o CMakeFiles/minishell.dir/ft_strsplit.c.s
 
 CMakeFiles/minishell.dir/ft_strsplit.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/minishell.dir/ft_strsplit.c.o.provides.build: CMakeFiles/minishell.di
 
 CMakeFiles/minishell.dir/ft_gnl.c.o: CMakeFiles/minishell.dir/flags.make
 CMakeFiles/minishell.dir/ft_gnl.c.o: ../ft_gnl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/minishell.dir/ft_gnl.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/ft_gnl.c.o   -c /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/ft_gnl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/petru/Desktop/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/minishell.dir/ft_gnl.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/ft_gnl.c.o   -c /Users/petru/Desktop/minishell/ft_gnl.c
 
 CMakeFiles/minishell.dir/ft_gnl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/ft_gnl.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/ft_gnl.c > CMakeFiles/minishell.dir/ft_gnl.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/petru/Desktop/minishell/ft_gnl.c > CMakeFiles/minishell.dir/ft_gnl.c.i
 
 CMakeFiles/minishell.dir/ft_gnl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/ft_gnl.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/ft_gnl.c -o CMakeFiles/minishell.dir/ft_gnl.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/petru/Desktop/minishell/ft_gnl.c -o CMakeFiles/minishell.dir/ft_gnl.c.s
 
 CMakeFiles/minishell.dir/ft_gnl.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/minishell.dir/ft_gnl.c.o.provides.build: CMakeFiles/minishell.dir/ft_
 
 CMakeFiles/minishell.dir/ft_gnl_help.c.o: CMakeFiles/minishell.dir/flags.make
 CMakeFiles/minishell.dir/ft_gnl_help.c.o: ../ft_gnl_help.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/minishell.dir/ft_gnl_help.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/ft_gnl_help.c.o   -c /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/ft_gnl_help.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/petru/Desktop/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/minishell.dir/ft_gnl_help.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/ft_gnl_help.c.o   -c /Users/petru/Desktop/minishell/ft_gnl_help.c
 
 CMakeFiles/minishell.dir/ft_gnl_help.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/ft_gnl_help.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/ft_gnl_help.c > CMakeFiles/minishell.dir/ft_gnl_help.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/petru/Desktop/minishell/ft_gnl_help.c > CMakeFiles/minishell.dir/ft_gnl_help.c.i
 
 CMakeFiles/minishell.dir/ft_gnl_help.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/ft_gnl_help.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/ft_gnl_help.c -o CMakeFiles/minishell.dir/ft_gnl_help.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/petru/Desktop/minishell/ft_gnl_help.c -o CMakeFiles/minishell.dir/ft_gnl_help.c.s
 
 CMakeFiles/minishell.dir/ft_gnl_help.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/minishell.dir/ft_gnl_help.c.o.provides.build: CMakeFiles/minishell.di
 
 CMakeFiles/minishell.dir/built_in.c.o: CMakeFiles/minishell.dir/flags.make
 CMakeFiles/minishell.dir/built_in.c.o: ../built_in.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/minishell.dir/built_in.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/built_in.c.o   -c /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/built_in.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/petru/Desktop/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/minishell.dir/built_in.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/built_in.c.o   -c /Users/petru/Desktop/minishell/built_in.c
 
 CMakeFiles/minishell.dir/built_in.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/built_in.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/built_in.c > CMakeFiles/minishell.dir/built_in.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/petru/Desktop/minishell/built_in.c > CMakeFiles/minishell.dir/built_in.c.i
 
 CMakeFiles/minishell.dir/built_in.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/built_in.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/built_in.c -o CMakeFiles/minishell.dir/built_in.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/petru/Desktop/minishell/built_in.c -o CMakeFiles/minishell.dir/built_in.c.s
 
 CMakeFiles/minishell.dir/built_in.c.o.requires:
 
@@ -195,7 +195,7 @@ minishell: CMakeFiles/minishell.dir/ft_gnl_help.c.o
 minishell: CMakeFiles/minishell.dir/built_in.c.o
 minishell: CMakeFiles/minishell.dir/build.make
 minishell: CMakeFiles/minishell.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable minishell"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/petru/Desktop/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable minishell"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/minishell.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -216,6 +216,6 @@ CMakeFiles/minishell.dir/clean:
 .PHONY : CMakeFiles/minishell.dir/clean
 
 CMakeFiles/minishell.dir/depend:
-	cd /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/cmake-build-debug /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/cmake-build-debug /nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/cmake-build-debug/CMakeFiles/minishell.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/petru/Desktop/minishell/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/petru/Desktop/minishell /Users/petru/Desktop/minishell /Users/petru/Desktop/minishell/cmake-build-debug /Users/petru/Desktop/minishell/cmake-build-debug /Users/petru/Desktop/minishell/cmake-build-debug/CMakeFiles/minishell.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/minishell.dir/depend
 

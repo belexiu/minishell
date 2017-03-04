@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/built_in.c" "/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/cmake-build-debug/CMakeFiles/minishell.dir/built_in.c.o"
-  "/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/ft_gnl.c" "/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/cmake-build-debug/CMakeFiles/minishell.dir/ft_gnl.c.o"
-  "/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/ft_gnl_help.c" "/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/cmake-build-debug/CMakeFiles/minishell.dir/ft_gnl_help.c.o"
-  "/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/ft_strsplit.c" "/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/cmake-build-debug/CMakeFiles/minishell.dir/ft_strsplit.c.o"
-  "/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/main.c" "/nfs/zfs-student-6/users/2016_cluj/pbelexiu/Desktop/minishell/cmake-build-debug/CMakeFiles/minishell.dir/main.c.o"
+  "/Users/petru/Desktop/minishell/built_in.c" "/Users/petru/Desktop/minishell/cmake-build-debug/CMakeFiles/minishell.dir/built_in.c.o"
+  "/Users/petru/Desktop/minishell/ft_gnl.c" "/Users/petru/Desktop/minishell/cmake-build-debug/CMakeFiles/minishell.dir/ft_gnl.c.o"
+  "/Users/petru/Desktop/minishell/ft_gnl_help.c" "/Users/petru/Desktop/minishell/cmake-build-debug/CMakeFiles/minishell.dir/ft_gnl_help.c.o"
+  "/Users/petru/Desktop/minishell/ft_strsplit.c" "/Users/petru/Desktop/minishell/cmake-build-debug/CMakeFiles/minishell.dir/ft_strsplit.c.o"
+  "/Users/petru/Desktop/minishell/main.c" "/Users/petru/Desktop/minishell/cmake-build-debug/CMakeFiles/minishell.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

@@ -80,4 +80,5 @@ void		ft_splitfree(char **split_str)
 		free(split_str[i]);
 		i++;
 	}
+	free(split_str);
 }
